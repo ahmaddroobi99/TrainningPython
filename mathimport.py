@@ -1,4 +1,4 @@
-from math import *
+from math import sqrt,cos,radians,pi
 
 print (sqrt(55))
 print(cos(2))

@@ -15,7 +15,7 @@ for species, name, age in creatures:
    if species == 'dog':
        if age <= 2:
              print(name, "is just a pup.")
-       if age > 2:
+       else:
             print(name, "is all grown up.")
    if species == 'humam':
           print("Hi " + name + ".")
@@ -54,7 +54,7 @@ print(monotonic(data1), monotonic(data2))
 
 
 def is_there(names, query):
-    for name in names:
+    if name in names:
 
 
         if query == name:
